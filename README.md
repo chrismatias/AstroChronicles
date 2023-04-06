@@ -24,6 +24,8 @@ wincertstore==0.2
 Anaconda Spyder IDE
 Anaconda Prompt Terminal
 
+Link to video demo: https://youtu.be/81_2oWTHclA
+
 Before attempting to deploy or run this program, make sure all dependencies are installed and up-to-date.  The following two-step tutorial on running the web-app locally assumes Anaconda Prompt from anaconda3 and Python are alreadyinstalled 
 
 To set-up a local virtual environment using Anaconda Prompt:
