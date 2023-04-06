@@ -89,6 +89,6 @@ Index.html contains the structure of the web-app. There are a few {{variable}} s
 
 # Function documentation:
 
-def get_Picture(): Gets the URL of picture from NASA APOD\n
-\ndef get_Title(): function to get title from NASA APOD
-\ndef iStory(): function to get story based on APOD title
+def get_Picture(): Gets the URL of picture from NASA APOD
+, def get_Title(): function to get title from NASA APOD
+, def iStory(): function to get story based on APOD title
