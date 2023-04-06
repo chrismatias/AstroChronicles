@@ -1,0 +1,53 @@
+
+<!--  how to use css in python_ flask-->
+<!DOCTYPE html>
+<html lang="en">
+ 
+ <head>
+ <title>DAILY NEW NASA PICTURE WITH CAPTION</title>
+<!--  Load CSS in Flask with html-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<!-- Latest compiled and minified CSS -->	
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!--  Load JavaScript in Flask with html-->
+  <script>
+    <!-- alert("Page has been loaded successfully") -- >
+  </script>
+ 
+
+ </head>
+ 
+ <body>
+<span class="border border-primary"></span>
+<span class="border border-secondary"></span>
+<span class="border border-success"></span>
+<span class="border border-danger"></span>
+<span class="border border-warning"></span>
+<span class="border border-info"></span>
+<span class="border border-light"></span>
+<span class="border border-dark"></span>
+<span class="border border-white"></span>
+ <div class ="container">
+  
+    <h1>
+	
+	<b>ASTRO CHRONICLES</b>
+	</h1>
+	<div class="h-75 d-inline-block, border-info" style="width: 420px; background-color: rgba(0,0,255,.1)"><img src = " {{ variable }} "  class="img-thumbnail" alt="Nasa's Picture of the Day"></div>
+	<p>{{variable2}}</p>
+	<br>
+	<p><a href="#" class="text-light bg-dark"><b>{{variable3}}<b></a></p>
+	<br>
+	<br>
+	<p><b><i>Enjoy a daily new picture from space and a generated two-sentence story from that picture through an integration of HTML, CSS, JavaScript, JSON, OpenAI API, NASA APOD API, and Flask Web Framework.</i></b></p>
+	<p>Created by Christopher Matias</p>
+</div>
+ </body>
+</html>

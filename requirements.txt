@@ -1,0 +1,7 @@
+Flask==2.2.3
+openai==0.27.4
+pip==23.0.1
+pipdeptree==2.7.0
+setuptools==65.6.3
+wheel==0.38.4
+wincertstore==0.2
